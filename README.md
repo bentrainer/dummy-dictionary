@@ -9,6 +9,8 @@ MATLAB dictionary wrapper for variable types of key and value.
 * Or use `addpath(...)`.
 
 ## Example
+Use `help dict` in MATLAB for more information.
+
 ```MATLAB
 d = dict();
 
