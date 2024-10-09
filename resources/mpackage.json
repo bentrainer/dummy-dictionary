@@ -1,0 +1,19 @@
+{
+    "name": "dict",
+    "version": "1.0.0",
+    "id": "1550cdb7-3156-4b08-8327-eade25724886",
+    "formerNames": [],
+    "displayName": "Dummy Dictionary",
+    "summary": "",
+    "description": "A dictionary wrapper for variable types of key and value.",
+    "provider": {
+        "name": "",
+        "organization": "",
+        "email": "",
+        "url": ""
+    },
+    "folders": [],
+    "dependencies": [],
+    "releaseCompatibility": ">=22.2.0",
+    "schemaVersion": "1.0.0"
+}
