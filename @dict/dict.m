@@ -13,7 +13,14 @@ classdef dict < handle
         function obj = dict(varargin)
             % DICT - Object behaves like MATLAB's dictionary but accepts variable types of key/value.
 
-            % TODO: init dictionary using varargin
+            for i = 1:length(varargin)
+                if mod(i, 2)==1
+                    k = varargin{i};
+                else
+                    v = varargin{i};
+                    obj.update(k, v);
+                end
+            end
         end
 
         function update(self, key, value)
